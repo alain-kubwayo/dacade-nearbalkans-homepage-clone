@@ -2,12 +2,12 @@ import Head from "next/head";
 
 // Component imports
 import Certification from "../components/sections/Certification";
-import Learning from "../components/Learning";
-import Wallet from "../components/Wallet";
+import Learning from "../components/misc/Learning";
 import ArrowContainer from "../components/arrows/ArrowContainer";
-import Course from "../components/Course";
-import Certificate from "../components/Certificate";
-import Development from "../components/Development";
+import Development from "../components/misc/Development";
+import Completion from "../components/sections/Completion";
+import Curriculum from "../components/sections/Curriculum";
+import CreateWallet from "../components/sections/CreateWallet";
 
 export default function Home() {
   return (
@@ -27,22 +27,22 @@ export default function Home() {
       <Certification />
       {/* Learning Section */}
       <Learning />
-      {/* Wallet Section */}
-      <Wallet />
+      {/* Create Wallet Section */}
+      <CreateWallet />
       {/* Arrow Section */}
       <ArrowContainer
         src="/svgs/ArrowToRight.svg"
         style="hidden lg:flex mt-16"
       />
-      {/* Course Section */}
-      <Course />
+      {/* Curriculum Section */}
+      <Curriculum />
       {/* Arrow Section */}
       <ArrowContainer
         src="/svgs/ArrowToLeft.svg"
         style="hidden lg:flex mt-16"
       />
-      {/* Certificate Section */}
-      <Certificate />
+      {/* Completion Section */}
+      <Completion />
       {/* Development Section */}
       <Development />
     </div>

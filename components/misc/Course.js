@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Title from "./heading/Title";
-import ListItem from "./list/ListItem";
+import Title from "../heading/Title";
+import ListItem from "../list/ListItem";
 
 const courseDetails = [
   {

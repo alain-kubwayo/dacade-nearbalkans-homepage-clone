@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Title from "./heading/Title";
+import Title from "../heading/Title";
 
 const Certificate = () => {
   return (

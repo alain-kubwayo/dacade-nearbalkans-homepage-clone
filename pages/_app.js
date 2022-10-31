@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "../styles/globals.css";
 import Layout from "../components/layout/Layout";
-import Modal from "../components/Modal";
+import Modal from "../components/modal/Modal";
 
 function MyApp({ Component, pageProps }) {
   const [showModal, setShowModal] = useState(false);

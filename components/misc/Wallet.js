@@ -1,6 +1,6 @@
 import Image from "next/image";
-import SecondaryBtn from "./buttons/SecondaryBtn";
-import Title from "./heading/Title";
+import SecondaryBtn from "../buttons/SecondaryBtn";
+import Title from "../heading/Title";
 
 const Wallet = () => {
   return (

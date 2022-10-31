@@ -32,11 +32,8 @@ const Modal = ({ handleClose }) => {
     };
   }, [show]);
   return (
-    <div
-      className="fixed top-0 left-0 w-full h-full"
-      style={{ background: "rgba(0, 0, 0, 0.5)" }}
-    >
-      <div className="md:max-w-[600px] lg:max-w-[480px] my-[200px] mx-auto bg-white rounded-xl">
+    <div className="fixed top-0 left-0 w-full h-full bg-black/[0.3]">
+      <div className="mx-auto bg-white md:max-w-[37.5rem] lg:max-w-[30rem] my-200px rounded-2xl">
         <div className="flex items-center justify-between px-6 border-b border-gray-200 py-23px">
           <h2 className="text-xl leading-tight text-black font-semi">
             Choose language
