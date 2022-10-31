@@ -30,38 +30,31 @@ const icons = [
     id: 4,
   },
   {
-    src: "/svgs/socials/facebook.svg",
-    alt: "Facebook",
-    width: 15,
-    height: 28,
-    id: 5,
-  },
-  {
     src: "/svgs/socials/linkedin.svg",
     alt: "LinkedIn",
     width: 25,
     height: 24,
-    id: 6,
+    id: 5,
   },
   {
     src: "/svgs/socials/instagram.svg",
     alt: "Instagram",
     width: 28,
     height: 28,
-    id: 7,
+    id: 6,
   },
   {
     src: "/svgs/socials/medium.svg",
     alt: "Medium",
     width: 32,
     height: 18,
-    id: 8,
+    id: 7,
   },
 ];
 
 const Socials = () => {
   return (
-    <div className="px-0 lg:px-20 lg:flex pt-39px">
+    <div className="px-0 lg:px-52 lg:flex pt-39px">
       <div className="hidden lg:flex">
         <Image src="/svgs/FooterLogo.svg" width={119} height={38} alt="Logo" />
       </div>
