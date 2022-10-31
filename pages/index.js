@@ -11,7 +11,7 @@ import Development from "../components/Development";
 
 export default function Home() {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Head>
         <title>NEAR dev 101</title>
         <meta

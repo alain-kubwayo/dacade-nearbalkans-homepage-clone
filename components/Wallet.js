@@ -5,7 +5,7 @@ import Title from "./heading/Title";
 const Wallet = () => {
   return (
     <div className="relative flex flex-col-reverse items-center justify-between max-w-5xl px-3 mx-auto mt-16 lg:flex-row lg:mt-182px gap-y-4">
-      <div className="absolute hidden w-full bg-hero-background-left h-480px max-w-480px -top-2/3 -z-40 -right-40 lg:block"></div>
+      <div className="absolute hidden w-full bg-violet-grad h-480px max-w-480px -top-2/3 -z-40 left-[40%] lg:block filter blur-lg opacity-20"></div>
       <div className="text-center lg:text-left">
         <Title text="Open NEAR wallet" />
         <p className="text-primary-100 text-base lg:text-lg pt-1.5 leading-tight">
@@ -22,7 +22,7 @@ const Wallet = () => {
           width={296}
           height={296}
           alt="Some Logo"
-          className="z-40 self-end"
+          className="z-50 self-end"
         />
       </div>
     </div>
