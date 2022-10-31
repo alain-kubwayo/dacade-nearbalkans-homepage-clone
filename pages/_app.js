@@ -12,12 +12,11 @@ function MyApp({ Component, pageProps }) {
 
   const handleClose = () => {
     setShowModal(false);
-    console.log(showModal);
   };
 
   return (
     <>
-      <Layout handleOpen={handleOpen}>
+      <Layout handleOpen={handleOpen} handleClose={handleClose}>
         <Component {...pageProps} />
       </Layout>
       {showModal && <Modal handleClose={handleClose} />}

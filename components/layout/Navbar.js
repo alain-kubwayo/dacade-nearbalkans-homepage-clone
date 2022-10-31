@@ -6,29 +6,31 @@ const Navbar = ({ handleOpen }) => {
     <nav className="max-w-5xl mx-auto py-6.5xl px-3">
       <div className="flex items-center justify-between">
         <div className="flex">
-          <div className="flex items-center">
-            <span>
-              <Image
-                src="/svgs/DacadeLogo.svg"
-                width={39}
-                height={30}
-                alt="Dacade Logo"
-                className="hidden lg:block"
-              />
-              <Image
-                src="/svgs/DacadeLogo.svg"
-                width={30}
-                height={30}
-                alt="Dacade Logo"
-                className="block lg:hidden"
-              />
-            </span>
-            <span className="hidden ml-2 text-lg font-bold md:block text-zinc-700">
-              Dacade
-            </span>
-          </div>
+          <Link href="/">
+            <div className="flex items-center">
+              <span>
+                <Image
+                  src="/svgs/DacadeLogo.svg"
+                  width={39}
+                  height={30}
+                  alt="Dacade Logo"
+                  className="hidden lg:block"
+                />
+                <Image
+                  src="/svgs/DacadeLogo.svg"
+                  width={30}
+                  height={30}
+                  alt="Dacade Logo"
+                  className="block lg:hidden"
+                />
+              </span>
+              <span className="hidden ml-2 text-lg font-bold md:block text-zinc-700">
+                Dacade
+              </span>
+            </div>
+          </Link>
           <div className="border-gray-200 border-solid border-r-2 lg:mx-[11px] mx-1.5"></div>
-          <Link href="https://nearbalkans.org">
+          <Link href="/about">
             <div className="hidden lg:block">
               <Image
                 src="/svgs/NavbarIcon-1.svg"
@@ -54,7 +56,7 @@ const Navbar = ({ handleOpen }) => {
           >
             Start The Course
           </button>
-          <Link href="#">
+          <Link href="/create">
             <button className="px-5 py-3 ml-12 leading-4 text-white rounded-full bg-zinc-700">
               Create wallet
             </button>

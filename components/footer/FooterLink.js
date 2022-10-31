@@ -1,5 +1,5 @@
 const FooterLink = ({ text }) => {
-  return <p className="text-lg cursor-pointer text-center">{text}</p>;
+  return <p className="text-lg text-center cursor-pointer">{text}</p>;
 };
 
 export default FooterLink;

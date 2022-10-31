@@ -19,7 +19,8 @@ const courseDetails = [
 
 const Course = () => {
   return (
-    <div className="grid max-w-5xl mx-auto mt-16 lg:grid-cols-2 lg:mt-2 gap-y-4">
+    <div className="relative z-0 grid max-w-5xl mx-auto mt-16 lg:grid-cols-2 lg:mt-2 gap-y-4">
+      <div className="absolute bg-green-grad filter blur-lg opacity-20 target-logo top-[38%] right-[70%] h-480px w-480px z-0 hidden lg:block"></div>
       <div className="flex items-center justify-center lg:justify-start">
         <Image
           src="/svgs/Focus.svg"

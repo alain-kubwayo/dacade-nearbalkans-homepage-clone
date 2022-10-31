@@ -31,6 +31,10 @@ module.exports = {
           200: "#86b5ef",
           300: "#7bdde2",
         },
+        dev: {
+          100: "#E9FAFB",
+          200: "#effcfc",
+        },
       },
       fontSize: {
         "32px": "2rem",
@@ -40,6 +44,18 @@ module.exports = {
           "radial-gradient(50% 50% at 50% 50%, #dde0fc 0,rgba(127,208,231,0) 100%)",
         "hero-background-right":
           "radial-gradient(50% 50% at 50% 50%, #dde0fc 0,rgba(127,208,231,0) 100%)",
+        "green-grad":
+          "radial-gradient(50% 50% at 50% 50%,#7bdde2 0,rgba(123,221,226,0) 100%)",
+      },
+      width: {
+        "480px": "30rem",
+      },
+      height: {
+        "480px": "30rem",
+        "hero-bar": "18.75rem",
+      },
+      margin: {
+        "182px": "11.375rem",
       },
     },
   },

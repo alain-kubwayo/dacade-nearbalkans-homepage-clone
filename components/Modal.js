@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { useEffect, useState } from "react";
 const modalCards = [
   {
     flag: "/svgs/modal/croatia-flag.svg",
@@ -21,6 +22,15 @@ const modalCards = [
 ];
 
 const Modal = ({ handleClose }) => {
+  const [show, setShow] = useState(true);
+  useEffect(() => {
+    if (show) {
+      document.body.style.overflow = "hidden";
+    }
+    return () => {
+      document.body.style.overflow = "unset";
+    };
+  }, [show]);
   return (
     <div
       className="fixed top-0 left-0 w-full h-full"

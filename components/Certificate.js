@@ -3,7 +3,7 @@ import Title from "./heading/Title";
 
 const Certificate = () => {
   return (
-    <div className="text-center w-[1280px] max-w-[90%] lg:max-w-[80%] mx-auto space-y-8 lg:space-y-20 mt-20 lg:mt-8">
+    <div className="max-w-5xl px-3 mx-auto mt-20 space-y-8 text-center lg:space-y-20 lg:mt-8">
       <div className="space-y-2 lg:space-y-0">
         <Title text="Claim NEAR certificate" />
         <p className="text-lg text-primary-100">
