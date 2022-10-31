@@ -3,21 +3,18 @@ const modalCards = [
   {
     flag: "/svgs/modal/croatia-flag.svg",
     name: "Croatia",
-    arrow: "/svgs/modal/arrow.svg",
     alt: "Croatia",
     id: 1,
   },
   {
     flag: "/svgs/modal/bulgaria-flag.svg",
     name: "Bulgarian",
-    arrow: "/svgs/modal/arrow.svg",
     alt: "Bulgaria",
     id: 2,
   },
   {
     flag: "/svgs/modal/uk-flag.svg",
     name: "English",
-    arrow: "/svgs/modal/arrow.svg",
     alt: "English",
     id: 3,
   },
@@ -57,7 +54,12 @@ const Modal = ({ handleClose }) => {
                   <p>{card.name}</p>
                 </div>
                 <div className="flex items-center justify-center p-4 bg-gray-100 rounded-full">
-                  <Image src={card.arrow} width={8} height={8} alt="Arrow" />
+                  <Image
+                    src="/svgs/modal/arrow.svg"
+                    width={8}
+                    height={8}
+                    alt="Arrow"
+                  />
                 </div>
               </div>
             </div>
