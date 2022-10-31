@@ -4,7 +4,7 @@ import Title from "./heading/Title";
 
 const Development = () => {
   return (
-    <div className="flex items-center justify-between lg:mx-36 flex-col-reverse lg:flex-row mt-[168px] lg:bg-gradient-to-l -z-10 from-[#E9FAFB] via-[#effcfc] to-[#ffffff]">
+    <div className="flex items-center justify-between lg:mx-52 flex-col-reverse lg:flex-row mt-[168px] lg:bg-gradient-to-l -z-10 from-[#E9FAFB] via-[#effcfc] to-[#ffffff]">
       <div className="mt-4 space-y-4 lg:mt-0">
         <Title text="NEAR Development 101" />
         <div className="flex justify-center w-full lg:justify-start ">

@@ -1,7 +1,7 @@
 const Learning = () => {
   return (
     <div id="learning">
-      <h2 className="text-primary-200 mt-16 text-32px lg:text-5xl font-semi w-[1280px] max-w-[80%] mx-auto text-center leading-tight">
+      <h2 className="max-w-5xl mx-auto mt-16 leading-tight text-center text-primary-200 text-32px lg:text-5xl font-semi">
         Making your NEAR <br /> learning easy.
       </h2>
     </div>

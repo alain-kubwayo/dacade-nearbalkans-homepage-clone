@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Navbar = ({ handleOpen }) => {
   return (
-    <nav className="w-[1280px] max-w-[90%] lg:max-w-[80%] mx-auto py-6.5xl">
+    <nav className="max-w-5xl mx-auto py-6.5xl">
       <div className="flex items-center justify-between">
         <div className="flex">
           <div className="flex items-center">

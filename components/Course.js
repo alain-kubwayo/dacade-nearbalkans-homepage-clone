@@ -19,8 +19,8 @@ const courseDetails = [
 
 const Course = () => {
   return (
-    <div className="flex flex-col lg:flex-row justify-between w-[1280px] max-w-[90%] lg:max-w-[60%] mx-auto lg:space-x-10 mt-16 lg:mt-2 gap-y-4">
-      <div className="flex items-center justify-center">
+    <div className="grid max-w-5xl mx-auto mt-16 lg:grid-cols-2 lg:mt-2 gap-y-4">
+      <div className="flex items-center justify-center lg:justify-start">
         <Image
           src="/svgs/Focus.svg"
           width={296}
