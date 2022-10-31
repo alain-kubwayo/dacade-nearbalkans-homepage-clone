@@ -1,26 +1,22 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply scroll-smooth;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+@font-face {
+  font-family: "graphik";
+  src: url("../public/font/Graphik-Regular-Web.woff2");
 }
 
-* {
-  box-sizing: border-box;
+@font-face {
+  font-family: "graphik-medium";
+  src: url("../public/font/Graphik-Medium-Web.woff2");
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+@font-face {
+  font-family: "graphik-semi";
+  src: url("../public/font/Graphik-Semibold-Web.woff2");
 }
