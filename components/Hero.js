@@ -4,7 +4,7 @@ import TextContent from "./TextContent";
 
 const Hero = () => {
   return (
-    <div className="max-w-5xl mx-auto mt-[200px]">
+    <div className="max-w-5xl mx-auto mt-[200px] px-3">
       <h1 className="text-4xl font-semi lg:text-7xl text-primary-200">
         Get{" "}
         <span className="text-transparent bg-clip-text bg-gradient-to-b from-gradient-100 via-gradient-200 to-gradient-300">
